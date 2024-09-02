@@ -1,0 +1,54 @@
+/* src/App.css */
+
+/* Dialog Styling */
+.MuiDialog-paper {
+  border-radius: 8px !important;
+  padding: 20px !important;
+  background-color: #f4f6f8 !important;
+}
+
+.MuiDialogTitle-root {
+  background-color: #1a73e8 !important;
+  color: #fff !important;
+  padding: 16px !important;
+  border-radius: 8px 8px 0 0 !important;
+}
+
+.MuiDialogContent-root {
+  padding: 24px !important;
+}
+
+.MuiTypography-h6 {
+  margin-bottom: 20px !important;
+  color: #333 !important;
+  font-weight: bold !important;
+}
+
+.MuiDialogActions-root {
+  padding: 16px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.MuiButton-containedPrimary {
+  background-color: #1a73e8 !important;
+  transition: background-color 0.3s ease !important;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #155cb0 !important;
+}
+
+.MuiButton-containedSecondary {
+  background-color: #e53935 !important;
+  transition: background-color 0.3s ease !important;
+}
+
+.MuiButton-containedSecondary:hover {
+  background-color: #d32f2f !important;
+}
+
+.MuiButton-text {
+  color: #555 !important;
+  transition: color 0.3s ease !important;
+}
